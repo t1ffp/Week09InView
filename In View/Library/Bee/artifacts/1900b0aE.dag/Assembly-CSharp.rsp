@@ -362,6 +362,7 @@
 "Assets/Scripts/AlienManager.cs"
 "Assets/Scripts/DetectAlien.cs"
 "Assets/Scripts/LadderClimb.cs"
+"Assets/Scripts/NextScene.cs"
 "Assets/Scripts/NPCDialogue.cs"
 "Assets/Scripts/SceneController.cs"
 "Assets/Scripts/StartGame.cs"

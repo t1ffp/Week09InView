@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class AlienManager : MonoBehaviour
 {
-    public int alienCount = 5;
+    public int alienCount = 3;
 
     public int aliensLeft;
 
-    public TextMeshProUGUI aliensLeftText;
+
 
     public GameObject endScreen;
     private float screenDelay = 1.7f;
@@ -24,7 +24,7 @@ public class AlienManager : MonoBehaviour
 
     private void Update()
     {
-        aliensLeftText.text = "Aliens Left: " + aliensLeft.ToString();
+       
 
         if (aliensLeft == 0)
         {
